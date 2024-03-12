@@ -1,1 +1,57 @@
-<p>formulario works!</p>
+<form class="row g-3">
+  <div class="col-md-5">
+    <label for="inputName" class="form-label text-primary">Nombre</label>
+    <input type="text" class="form-control" id="inputName" />
+  </div>
+  <div class="col-5">
+    <label for="inputLastName" class="form-label text-primary">Apellidos</label>
+    <input type="text" class="form-control" id="inputLastName" />
+  </div>
+  <div class="col-md-5">
+    <label for="inputGender" class="form-label text-primary fw-bold">Genero</label>
+    <select name="inputGender" class="form-select">
+      <option selected>Masculino</option>
+      <option selected>Femenino</option>
+    </select>
+  </div>
+  <div class="col-md-5">
+    <label for="inputState" class="form-label  text-primary fw-bold">Ciudad</label>
+    <select id="inputState" class="form-select">
+      <option selected>Medellin</option>
+      <option>Bogota</option>
+      <option>Cali</option>
+      <option>Pasto</option>
+    </select>
+  </div>
+  <div class="col-5">
+        <label class="h5 text-primary" for="Poliza">Poliza</label> 
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="poliza" id="salud" />
+            <label class="form-check-label" for="salud"> Salud </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="poliza" id="vida" />
+            <label class="form-check-label" for="vida"> Vida </label>
+        </div>
+    </div>
+    <div class="col-5">
+        <label class="h5 text-primary" for="Mascota ">Mascota</label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="mascota" id="perro" checked />
+            <label class="form-check-label" for="perro"> Perro </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="mascota" id="gato" />
+            <label class="form-check-label" for="gato"> Gato </label>
+        </div>
+    </div>
+    <div class="col-6">
+        <label  class="form-label text-primary ">Fecha de nacimiento</label>
+        <input class="form-control" type="date" name="" id="">
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary rounded-pill px-5">Enviar</button>
+    </div>
+    
+    
+</form>
